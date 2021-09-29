@@ -14,9 +14,9 @@ system.time({ sleep_for_a_minute() })
 # devtools::install_github("jabiru/tictoc")
 # not working
 
-
-devtools::install_github("olafmersmann/microbenchmarkCore")
-devtools::install_github("olafmersmann/microbenchmark")
+##  the following backages are needed, please install if not currently exists
+# devtools::install_github("olafmersmann/microbenchmarkCore")
+# devtools::install_github("olafmersmann/microbenchmark")
 
 library(microbenchmark)
 
